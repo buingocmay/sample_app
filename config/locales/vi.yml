@@ -1,0 +1,14 @@
+vi:
+  base_title: "Hướng dẫn ứng dụng mẫu Ruby on Rails"
+  home: "Trang chủ"
+  sample: "Ứng dụng mẫu"
+  help: "Trợ giúp"
+  about: "Giới thiệu"
+  contact: "Liên hệ"
+  home_content: "Day la trang chu"
+  help_content: "Day la trang tro giup"
+  contact_content: "Day la trang lien he"
+  about_content: "Day la trang gioi thieu"
+  location:
+    english: "Tieng Anh"
+    vietnam: "Tieng Viet"
