@@ -1,14 +1,18 @@
 vi:
   base_title: "Hướng dẫn ứng dụng mẫu Ruby on Rails"
-  home: "Trang chủ"
   sample: "Ứng dụng mẫu"
+  home:
+    title: "Trang chủ"
+    welcome: "Chào bạn đến với Ứng dụng mẫu"
+    content: "Day la trang chu"
   help: "Trợ giúp"
   about: "Giới thiệu"
   contact: "Liên hệ"
-  home_content: "Day la trang chu"
+  news: "Tin tức"
+  signup: "Đăng ký"
+  signup_content: "Trang đăng ký người dùng."
+  login: "Đăng nhập"
   help_content: "Day la trang tro giup"
   contact_content: "Day la trang lien he"
   about_content: "Day la trang gioi thieu"
-  location:
-    english: "Tieng Anh"
-    vietnam: "Tieng Viet"
+  footer: "Hướng dẫn Ruby on Rails bởi Michael Hartl"

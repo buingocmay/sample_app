@@ -1,7 +1,11 @@
-<% provide:title, t("home") %>
-<%= link_to t("location.english"), locale: "en" %>
-<%= link_to t("location.vietnam"), locale: "vi" %>
-<h1><%= t "sample" %></h1>
-<p>
-  <%= t "home_content" %>
-</p>
+<% provide:title, t("home.title") %>
+<div class="center jumbotron">
+  <h1><%= t "home.welcome" %></h1>
+
+  <h2><%= t "home.content" %></h2>
+
+  <%= link_to t("signup"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>

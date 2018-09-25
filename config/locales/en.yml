@@ -31,15 +31,19 @@
 
 en:
   base_title: "Ruby on Rails Tutorial Sample App"
-  home: "Home"
   sample: "Sample App"
+  home:
+    title: "Home"
+    welcome: "Welcome to the Sample App"
+    content: "This is the home page"
   help: "Help"
-  about: "About"
-  contact: "Contact"
-  home_content: "This is the home page"
   help_content: "This is the help page"
+  about: "About"
   about_content: "This is the about page"
+  contact: "Contact"
   contact_content: "This is the contact page"
-  location:
-    english: "English"
-    vietnam: "Vietnamese"
+  news: "News"
+  signup: "Sign up"
+  signup_content: "This will be a signup page for new users."
+  login: "Log in"
+  footer: "The Ruby on Rails Tutorial by Michael Hartl"
