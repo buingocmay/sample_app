@@ -27,6 +27,7 @@ module SampleApp
     # the framework and any gems in your application.
 
     # Don't generate system test files.
+    config.i18n.default_locale = :en
     config.generators.system_tests = nil
   end
 end
