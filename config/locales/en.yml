@@ -30,4 +30,28 @@ en:
     account: "Account"
     users: "Users"
     remember: "Remember me"
+  users:
+    index:
+      title: "All users"
+      r_login: "Please log in."
+    edit:
+      title: "Edit user"
+      u_title: "Update your profile"
+      save: "Save changes"
+      avatar: "Change avatar"
+    update:
+      updated: "Profile updated"
+    user:
+      delete: "delete"
+      sure: "You sure?"
+    destroy:
+      success: "User deleted"
+      failed: "Failed to delete"
   footer: "The Ruby on Rails Tutorial by Michael Hartl"
+  views:
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Prev"
+      next: "Next &rsaquo;"
+      truncate: "&hellip;"

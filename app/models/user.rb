@@ -10,11 +10,8 @@ class User < ApplicationRecord
   validates :password, presence: true, length: {minimum: Settings.pw_min},
     allow_nil: true
 
-  private
-
-  def downcase_email
-    email.downcase!
-  end
+  scope :selected, ->{select :id, :email, :name}
+  scope :ordered, ->{order :name}
 
   class << self
     def digest string
@@ -43,5 +40,15 @@ class User < ApplicationRecord
 
   def forget
     update remember_digest: nil
+  end
+
+  def current_user? current_user
+    self == current_user
+  end
+
+  private
+
+  def downcase_email
+    email.downcase!
   end
 end
