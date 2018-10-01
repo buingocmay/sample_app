@@ -29,4 +29,5 @@ vi:
     profile: "Hồ sơ"
     account: "Tài khoản"
     users: "Người dùng"
+    remember: "Ghi nhớ tôi"
   footer: "Hướng dẫn Ruby on Rails bởi Michael Hartl"
