@@ -30,4 +30,28 @@ vi:
     account: "Tài khoản"
     users: "Người dùng"
     remember: "Ghi nhớ tôi"
+  users:
+    index:
+      title: "Danh sách người dùng"
+      r_login: "Yêu cầu đăng nhập."
+    edit:
+      title: "Chỉnh sửa người dùng"
+      u_title: "Cập nhật người dùng"
+      save: "Lưu thay đổi"
+      avatar: "Đổi ảnh đại diện"
+    update:
+      updated: "Cập nhật thành công"
+    user:
+      delete: "xóa"
+      sure: "Xác nhận?"
+    destroy:
+      success: "Xóa thành công"
+      failed: "Xóa không thành công"
   footer: "Hướng dẫn Ruby on Rails bởi Michael Hartl"
+  views:
+    pagination:
+      first: "&laquo; Đầu"
+      last: "Cuối &raquo;"
+      previous: "&lsaquo; Trước"
+      next: "Sau &rsaquo;"
+      truncate: "&hellip;"
