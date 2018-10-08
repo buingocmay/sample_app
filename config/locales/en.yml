@@ -34,6 +34,8 @@ en:
     index:
       title: "All users"
       r_login: "Please log in."
+    create:
+      info: "Please check your email to activate your account."
     edit:
       title: "Edit user"
       u_title: "Update your profile"
@@ -55,3 +57,16 @@ en:
       previous: "&lsaquo; Prev"
       next: "Next &rsaquo;"
       truncate: "&hellip;"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      hi: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activation: "Activation"
+  account_activation:
+    edit:
+      activated: "Account activated!"
+      invalid: "Invalid activation link!"
+  sessions:
+    create:
+      not_act: "Account not activated. Check your email for the activation link."

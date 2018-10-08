@@ -34,6 +34,8 @@ vi:
     index:
       title: "Danh sách người dùng"
       r_login: "Yêu cầu đăng nhập."
+    create:
+      info: "Kiểm tra email của bạn để kích hoạt tài khoản."
     edit:
       title: "Chỉnh sửa người dùng"
       u_title: "Cập nhật người dùng"
@@ -55,3 +57,16 @@ vi:
       previous: "&lsaquo; Trước"
       next: "Sau &rsaquo;"
       truncate: "&hellip;"
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+      hi: "Chào"
+      welcome: "Chào mừng bạn đến với Sample App! Click vào link bên dưới để kích hoạt tài khoản của bạn:"
+      activation: "Kích hoạt"
+  account_activation:
+    edit:
+      activated: "Tài khoản đã được kích hoạt!"
+      invalid: "Link kích hoạt không hợp lệ!"
+  sessions:
+    create:
+      not_act: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để nhận link kích hoạt."
