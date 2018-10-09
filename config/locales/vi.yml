@@ -30,6 +30,7 @@ vi:
     account: "Tài khoản"
     users: "Người dùng"
     remember: "Ghi nhớ tôi"
+    forgot: "(quên mật khẩu)"
   users:
     index:
       title: "Danh sách người dùng"
@@ -63,6 +64,13 @@ vi:
       hi: "Chào"
       welcome: "Chào mừng bạn đến với Sample App! Click vào link bên dưới để kích hoạt tài khoản của bạn:"
       activation: "Kích hoạt"
+    password_reset:
+      subject: "Đặt lại mật khẩu"
+      link_reset: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+      reset: "Đặt lại mật khẩu"
+      expired: "Liên kết này sẽ hết hạn sau hai giờ."
+      ignore: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và
+mật khẩu của bạn sẽ vẫn giữ nguyên."
   account_activation:
     edit:
       activated: "Tài khoản đã được kích hoạt!"
@@ -70,3 +78,17 @@ vi:
   sessions:
     create:
       not_act: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để nhận link kích hoạt."
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      submit: "Gửi"
+    edit:
+      title: "Đặt lại mật khẩu"
+      update: "Cập nhật mật khẩu"
+    create:
+      info: "Đã gửi tới email của bạn hướng dẫn đặt lại mật khẩu"
+      not_f: "Không tìm thấy địa chỉ email"
+    update:
+      empty: "Không được để trống"
+      reset: "Đã đặt lại mật khẩu"
+      expired: "Hết hạn đặt lại mật khẩu"
