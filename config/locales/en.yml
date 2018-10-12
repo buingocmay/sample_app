@@ -92,3 +92,31 @@ your password will stay as it is."
       empty: "Can't be empty"
       reset: "Password has been reset"
   expired: "Password reset has expired"
+  microposts:
+    micropost:
+      posted: "Posted"
+      ago: "ago"
+      delete: "delete"
+      confirm: "You sure?"
+    create:
+      created: "Micropost created!"
+    destroy:
+      deleted: "Micropost deleted"
+  static_pages:
+    home:
+      feed: "Micropost Feed"
+      profile: "view my profile"
+      micropost: "microposts"
+      type: "Compose new micropost..."
+      post: "Post"
+  max_size_file: "Maximum file size is 5MB. Please choose a smaller file."
+  has_error: "The form contains"
+  error: "errors"
+  datetime:
+    distance_in_words:
+      less_than_x_minutes: "less than %{count} minutes"
+      x_minutes: "%{count} minutes"
+      about_x_hours: "%{count} hours"
+      x_days: "%{count} days"
+      x_months: "%{count} months"
+      about_x_years: "%{count} years"

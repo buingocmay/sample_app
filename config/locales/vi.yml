@@ -92,3 +92,31 @@ mật khẩu của bạn sẽ vẫn giữ nguyên."
       empty: "Không được để trống"
       reset: "Đã đặt lại mật khẩu"
       expired: "Hết hạn đặt lại mật khẩu"
+  microposts:
+    micropost:
+      posted: "Đã đăng"
+      ago: "trước"
+      delete: "xóa"
+      confirm: "Xác nhận?"
+    create:
+      created: "Đã đăng!"
+    destroy:
+      deleted: "Đã xóa"
+  static_pages:
+    home:
+      feed: "Danh sách bài đăng"
+      profile: "xem hồ sơ"
+      micropost: "bài đăng"
+      type: "Soạn bài đăng..."
+      post: "Đăng"
+  max_size_file: "File tối đa 5MB. Hãy chọn file nhỏ hơn."
+  has_error: "Xảy ra"
+  error: "lỗi"
+  datetime:
+    distance_in_words:
+      less_than_x_minutes: "chưa đầy %{count} phút"
+      x_minutes: "%{count} phút"
+      about_x_hours: "%{count} giờ"
+      x_days: "%{count} ngày"
+      x_months: "%{count} tháng"
+      about_x_years: "%{count} năm"
